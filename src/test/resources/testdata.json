@@ -1,0 +1,118 @@
+{
+  "base_url": "https://testslotegrator.com",
+  "basic_auth": "dGVzdDkxOm9pd1NNVW1Rbzl1dXV5YzlLSVR3SA==",
+  "credentials": {
+    "email": "sargistaranyan81@gmail.com",
+    "password": "3BMRdp1RnQn1"
+  },
+  "players": [
+    {
+      "currency_code": "USD",
+      "email": "player1@test.com",
+      "name": "John",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Anderson",
+      "username": "player_john01"
+    },
+    {
+      "currency_code": "EUR",
+      "email": "player2@test.com",
+      "name": "Alice",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Baker",
+      "username": "player_alice02"
+    },
+    {
+      "currency_code": "GBP",
+      "email": "player3@test.com",
+      "name": "Charlie",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Clark",
+      "username": "player_charlie03"
+    },
+    {
+      "currency_code": "USD",
+      "email": "player4@test.com",
+      "name": "Diana",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Davis",
+      "username": "player_diana04"
+    },
+    {
+      "currency_code": "EUR",
+      "email": "player5@test.com",
+      "name": "Edward",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Evans",
+      "username": "player_edward05"
+    },
+    {
+      "currency_code": "GBP",
+      "email": "player6@test.com",
+      "name": "Fiona",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Fisher",
+      "username": "player_fiona06"
+    },
+    {
+      "currency_code": "USD",
+      "email": "player7@test.com",
+      "name": "George",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Green",
+      "username": "player_george07"
+    },
+    {
+      "currency_code": "EUR",
+      "email": "player8@test.com",
+      "name": "Hannah",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Harris",
+      "username": "player_hannah08"
+    },
+    {
+      "currency_code": "GBP",
+      "email": "player9@test.com",
+      "name": "Ivan",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Ivanov",
+      "username": "player_ivan09"
+    },
+    {
+      "currency_code": "USD",
+      "email": "player10@test.com",
+      "name": "Karen",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "King",
+      "username": "player_karen10"
+    },
+    {
+      "currency_code": "EUR",
+      "email": "player11@test.com",
+      "name": "Leo",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Lewis",
+      "username": "player_leo11"
+    },
+    {
+      "currency_code": "GBP",
+      "email": "player12@test.com",
+      "name": "Monica",
+      "password_change": "Password123!",
+      "password_repeat": "Password123!",
+      "surname": "Moore",
+      "username": "player_monica12"
+    }
+  ]
+}

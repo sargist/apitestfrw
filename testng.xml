@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Players API Suite" parallel="methods" thread-count="3">
+    <parameter name="env" value="test"/>
+    <test name="Players API Tests">
+        <classes>
+            <class name="com.players.tests.PlayersApiTest"/>
+        </classes>
+    </test>
+</suite>
