@@ -1,0 +1,29 @@
+name: Check Repository Watchers
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-watchers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check repository watchers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          WATCHERS=$(gh api repos/${{ github.repository }}/subscribers --jq 'length')
+          echo "Number of watchers: $WATCHERS"
+          if [ "$WATCHERS" -eq 0 ]; then
+            echo "Nobody is watching this repository yet."
+          elif [ "$WATCHERS" -eq 1 ]; then
+            echo "Yes, 1 person is watching this repository!"
+          else
+            echo "Yes, $WATCHERS people are watching this repository!"
+            gh api repos/${{ github.repository }}/subscribers --jq '.[].login' | while read user; do
+              echo "  - $user"
+            done
+          fi
